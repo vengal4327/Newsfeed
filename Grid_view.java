@@ -31,7 +31,7 @@ public class Grid_view extends ActionBarActivity {
         gridView.setAdapter(new MyAdapter(this,names,images));
         Animation anim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fly_in_from_center);
         gridView.setAnimation(anim);
-        anim.start();
+        //anim.start();
         m_handler = new Handler();
         m_handlerTask = new Runnable()
         {
